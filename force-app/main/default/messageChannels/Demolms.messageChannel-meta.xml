@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Demolms</masterLabel>
+    <isExposed>true</isExposed>
+    <description>Message Channel to pass a record Id</description>
+    <lightningMessageFields>
+        <fieldName>message</fieldName>
+        <description>This is the variable where data will be stored</description>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <fieldName>source</fieldName>
+        <description>This is the variable where data will be stored</description>
+    </lightningMessageFields>
+</LightningMessageChannel>
